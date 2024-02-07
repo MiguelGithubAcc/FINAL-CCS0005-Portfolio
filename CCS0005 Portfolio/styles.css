@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:hover{
+    background-color: rgb(255, 255, 255);
+}
+.landing{
+    color: yellow;
+    font-size: 45px;
+    text-align: center;
+}
+.intro{
+    font-size: 25px;
+    text-align: center;
+}
+.landpic{
+    display: block;
+    margin-left: 60rem;
+    float: right;
+    position: absolute;
+    border: 10px solid #0e1d35;
+}
+.aboutpic{
+    display: block;
+    margin-right: 50px;
+    float: left;
+    border-radius: 50%;
+    border: 10px solid #0e1d35;
+}
+.header{
+    font-size: 70px;
+}
+body {
+    font-family: 'Slabo 27px', serif;
+    background-color: #15253f;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #0e1d35;
+    margin-bottom: 2rem;
+    list-style-type: none;
+}
+.navbar-brand{
+    color: white;
+}
+.nav-link active{
+    color:  white;
+}
+.nav-link{
+    color: white;
+}
+
+#land .card{
+    background-color: #111f35;
+    color: aliceblue;
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-right: 30rem;
+    margin-left: 2rem;
+    margin-bottom: 10rem;
+}
+#me .about{
+    color: aliceblue;
+    text-align: center;
+    background-color: #02081f;
+    padding: 5rem;
+    padding-bottom: 25rem;
+    margin-bottom: 5rem;
+}
+.background{
+    font-size: 2rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#project .projects{
+    color: aliceblue;
+    text-align: center;
+    padding: 10rem;
+    background-color: #203e6e;
+    margin-bottom: 5rem;
+}
+.proj{
+    font-size: 5rem;
+}
+.pproj{
+    font-size: 2rem;
+}
+.imgcol{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 5px;
+}
+.imgrow::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#Contacts .contact {
+    color: aliceblue;
+    text-align: center;
+    background-color: #15253f;
+    padding: 5rem;
+    margin-bottom: 2rem;
+}
+.cont{
+    font-size: 5rem;
+}
+.logocol{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 5px;
+}
+.logorow::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.email{
+    font-size: 30px;
+}
+.phone{
+    font-size: 30px;
+}
+.link{
+    font-size: 30px;
+}
+footer {
+    color: aliceblue;
+    background-color:  #0e1d35;
+    padding: 0.7rem;
+}
+footer span {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
